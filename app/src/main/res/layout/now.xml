@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:andorid="http://schemas.android.com/apk/res/android"
+    andorid:orientation="vertical"
+    andorid:layout_width="match_parent"
+    andorid:layout_height="wrap_content"
+    andorid:layout_margin="15dp">
+
+    <TextView
+        andorid:id="@+id/degree_text"
+        andorid:layout_width="wrap_content"
+        andorid:layout_height="wrap_content"
+        andorid:layout_gravity="end"
+        andorid:textColor="#fff"
+        andorid:textSize="60sp" />
+
+    <TextView
+        andorid:id="@+id/weather_info_text"
+        andorid:layout_width="wrap_content"
+        andorid:layout_height="wrap_content"
+        andorid:layout_gravity="end"
+        andorid:textColor="#fff"
+        andorid:textSize="20sp" />
+
+</LinearLayout>
